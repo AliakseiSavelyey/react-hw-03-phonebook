@@ -1,8 +1,9 @@
 import React from 'react';
+import './Filter.scss';
 
 const Filter = ({ filter, searchContact }) => {
   return (
-    <label>
+    <label className="FilterLabel">
       {' '}
       Find contacts by name
       <input

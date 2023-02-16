@@ -32,7 +32,8 @@ class Form extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit} className="ContactForm">
-        <label htmlFor={this.nameInputId}>
+        <h1 className="ContactForm-title">Phonebook</h1>
+        <label htmlFor={this.nameInputId} className="ContactForm-label">
           Name
           <input
             type="text"
@@ -46,7 +47,7 @@ class Form extends Component {
           />
         </label>
 
-        <label htmlFor={this.numberInputId}>
+        <label htmlFor={this.numberInputId} className="ContactForm-label">
           Number
           <input
             type="tel"
