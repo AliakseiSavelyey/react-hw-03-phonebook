@@ -27,14 +27,13 @@ const ContactList = ({ searchContact, deleteContact }) => {
 };
 
 ContactList.propTypes = {
-  deleteContact: PropTypes.func.isRequired,
-  searchContact: PropTypes.arrayOf(
+  contacts: PropTypes.arrayOf(
     PropTypes.exact({
       id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       number: PropTypes.string.isRequired,
     }),
-  ).isRequired,
+  ),
 };
 
 export default ContactList;
