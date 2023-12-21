@@ -1,1 +1,1 @@
-phone book for recording and editing contacts
+React phone book for recording and editing contacts
